@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    --bee-yellow: #F3C827;
+    --bee-brown: #593E26;
+    --bee-orange: #CC4E00;
+
+    color: var(--bee-brown);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+
+    #clickable_logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 128px;
+        }
+
+        h1 {
+            font-family: "WindSong", cursive;
+            font-size: 48px;
+        }
+    }
+
+    #nav_links {
+        a {
+            font-size: 16px;
+            margin: 0 16px;
+        }
+    }
+}
+
+.fancy_button {
+    padding: 8px;
+    color: white;
+    background-color: var(--bee-orange);
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card_holder {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.text_card {
+    width: 315px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.image_card {
+    width: 315px;
+    text-align: left;
+    background-color: var(--bee-yellow);
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 8px;
+    }
+
+    img {
+        width: 315px;
+        height: 415px;
+    }
+}
+
+#hero {
+    background-color: var(--bee-yellow);
+    padding: 64px 0;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            h2 {
+                font-size: 64px;
+                font-weight: 600;
+                font-family: "WindSong", cursive;
+            }
+        }
+    }
+}
+
+#engagement {
+    padding: 64px 0;
+
+    .container {
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: center;
+            gap: 8px;
+        }
+
+
+        h2 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+#bienfaits {
+    padding: 64px 0;
+    background-color: var(--bee-yellow);
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+}
+
+#products {
+    padding: 64px 0;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+}
+
+#footer {
+    padding: 64px;
+    background-color: var(--bee-yellow);
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "WindSong", cursive; */
