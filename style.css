@@ -44,6 +44,18 @@ nav {
             margin: 0 16px;
         }
     }
+
+    @media screen and ((orientation: portrait) or (width < 600px)) {
+        #nav_links {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                font-size: 16px;
+                margin: 0 16px;
+            }
+        }
+    }
 }
 
 .fancy_button {
@@ -128,7 +140,7 @@ nav {
             align-items: baseline;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 16px;
 
             p {
                 max-width: 490px;
