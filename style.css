@@ -36,6 +36,9 @@ nav {
     }
 
     #nav_links {
+        display: flex;
+        flex-wrap: wrap;
+
         a {
             font-size: 16px;
             margin: 0 16px;
@@ -126,6 +129,10 @@ nav {
             justify-content: center;
             flex-wrap: wrap;
             gap: 8px;
+
+            p {
+                max-width: 490px;
+            }
         }
 
 
